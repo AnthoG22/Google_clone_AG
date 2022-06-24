@@ -1,0 +1,126 @@
+*{
+    color: black;
+    background: white;
+}
+.encabezado{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    gap: 1%;
+}
+.imge{
+    width: 7%;   
+    border-radius: 50%;
+}
+.pie{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    gap: 1%;
+    background: #e5e8eb;
+}
+#foto{
+    margin-right: 3%;
+}
+.bloque1{
+    display: flex;
+    gap: 1%;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    width: 60%;
+    background: #e5e8eb;
+}
+.bloque2{
+    display: flex;
+    margin-left: auto;
+    gap: 1%;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    margin-right: 2%;
+    background: #e5e8eb;
+}
+.pb{
+    background: #e5e8eb;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18%;
+}
+.imagen{
+    width: 40%;
+}
+
+.imagengoogle{
+    width: 100%;
+}
+.bot_busc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 60%;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    border-style: solid;
+    border-radius: 24px;
+    margin: 0 auto;
+    z-index: 3;
+    
+
+}
+
+.img1{
+    width: 6%;
+}
+.img2{
+    width: 6%;
+}
+.barradato{
+    position: relative;
+    width: 80%;
+    border-color:transparent;
+}
+.botones{
+    padding: 2%;
+    width: 60%;
+    position:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.boton{
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-color:#f8f9fa;
+    border-radius: 4px;
+    width: 40%;
+}
+.boton:hover{
+    border-color:#ffffff ;
+    transform: scale(1.1);
+}
